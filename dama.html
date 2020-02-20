@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Startup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/soon.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+
+    <!--Шапка-->
+    <header class="header">
+        <div class="container">
+            <div class="header__menu">
+                <a href="#"><img src="img/logo.png"></a>
+                <div class="btn_menu" onclick="openNav()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="overlay" id="overlay">
+                    <ul class="nav">
+                        <li>
+                            <a href="#" data-scroll="#sale">Sale of the day</a>
+                        </li>
+                        <li>
+                            <a href="#" data-scroll="#popular">popular product</a>
+                        </li>
+                        <li>
+                            <a href="#" data-scroll="#deal">this weeks hot deals</a></li>
+                        <li>
+                            <a href="#" data-scroll="#other">other products</a>
+                        </li>
+                    </ul>
+                    <i class="fa fa-times" aria-hidden="true" onclick="closeNav()"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Конец-->
+
+    <!--Главная-->
+    <section class="main" id="main">
+        <div class="container">
+            <div class="main__slider">
+                <div class="slider__item ">
+                    <img src="img/slider-phone-img.png" class="main__slider__img">
+                    <div class="main__slider__text">
+                        <h1>Headphone</h1>
+                        <p>оf the printing and typesetting industry</p>
+                        <p class="main__slider__price">189 usd</p>
+                        <a data-title="Headphone" data-category="Headphone" data-text="оf the printing and typesetting industry" data-price="$450.00" data-img="img/slider-phone-img.png" data-scroll="#main" href="#" class="main__slider__btn open__pop">Buy now</a>
+                    </div>
+                </div>
+                <!--2 слайдер-->
+                <div class="slider__item ">
+                    <img src="img/slider-phone2-img.png" class="main__slider__img">
+                    <div class="main__slider__text">
+                        <h1>Beats by Dr. Dre</h1>
+                        <p>оf the printing and typesetting industry</p>
+                        <p class="main__slider__price">189 usd</p>
+                        <a data-title="Headphone" data-category="Headphone" data-text="оf the printing and typesetting industry" data-price="$450.00" data-img="img/slider-phone2-img.png" href="#" class="main__slider__btn open__pop">Buy now</a>
+                    </div>
+                </div>
+                <!--3 слайдер-->
+                <div class="slider__item ">
+                    <img src="img/slider-phone3-img.png" class="main__slider__img">
+                    <div class="main__slider__text">
+                        <h1>Monster Beats</h1>
+                        <p>оf the printing and typesetting industry</p>
+                        <p class="main__slider__price">189 usd</p>
+                        <a data-title="Headphone" data-category="Headphone" data-text="оf the printing and typesetting industry" data-price="$450.00" data-img="img/slider-phone3-img.png" href="#" class="main__slider__btn open__pop">Buy now</a>
+                    </div>
+                </div>
+                <!--Конец-->
+
+                <div class="main__slider__control">
+                    <div class="main__slider__pagination">
+                        <span class="slider__current">02</span><span class="slider__count">/03</span></p>
+                    </div>
+                    <div class="main__slider-dots">
+                    </div>
+                    <div class="main__slider__btns">
+                        <button class="main__slider-prev active"></button>
+
+                        <button class="main__slider-next"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Конец-->
+
+    <!--Секция-->
+
+    <section class="sale" id="sale">
+        <div class="container">
+            <h2 class="sale__title"><span>s</span>ale of the day</h2>
+            <div class="sale__content">
+                <!--1 столбец-->
+                <div class="sale__content__left">
+                    <div class="sale__content__left__block">
+                        <img src="img/iphone.png">
+                    </div>
+                    <div class="sale__content__left__text">
+                        <span>iphone 6s silver-64gb</span>
+                        <p>sale off: <span>$250/00</span> - 370/00</p>
+                        <p>Lorem Ipsum is simply dummy text of the</p>
+                    </div>
+                    <!--  <div class="soon" id="my-soon-counter" data-due="2020-03-30T00:00:00" data-layout="inline label-uppercase label-small" data-scale-max="m" data-format="d,h,m,s" data-face="slot rotate" data-visual="ring cap-round progressgradient-00fff6_075fff ring-width-custom gap-0"
+                        data-labels-days="day,DAYS" data-labels-hours="HOURS" data-labels-minutes="MINS" data-labels-seconds="SECS">
+                    </div> -->
+
+                    <div class="sale__fonts__left">
+                        <a href="#">
+                            <i class="fa fonts fa-refresh" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" data-title="Phone" data-category="Phone" data-text="IPHONE 6S SILVER-64GB " data-price="$250.00" data-img="img/iphone_sm.png" class="open__pop" data-scroll="#sale">
+                            <i class="fa fa-shopping-basket " aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--конец-->
+
+                <!--2 столбец-->
+                <div class="sale__content__right">
+                    <div class="sale__content__item">
+                        <a href="#">Watch</a>
+                        <h1>Apple Watch Sport Green</h1>
+                        <p>price: <span>$400.00</span></p>
+                        <img src="img/time1.png">
+                        <div class="sale__fonts">
+                            <a href="#">
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" data-title="Watch" data-category="Watch" data-text="Apple Watch Sport Green" data-price="$400.00" data-img="img/time1.png" class="open__pop" data-scroll="#sale">
+                                <i class="fa fa-shopping-basket " aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sale__content__item">
+                        <a href="#">Headphone</a>
+                        <h1>Beat Beautiful</h1>
+                        <p>price: <span>$400.00</span></p>
+                        <img src="img/time2.png">
+                        <div class="sale__fonts">
+                            <a href="#">
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" data-title="Headphone" data-category="Headphone" data-text="Beat Beautiful" data-price="$400.00" data-img="img/time2.png" data-scroll="#sale" class="open__pop">
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sale__content__item">
+                        <a href="#">Headphone</a>
+                        <h1>Beat Phone VIP</h1>
+                        <p>price: <span>$450.00</span></p>
+                        <img src="img/time3.png">
+                        <div class="sale__fonts">
+                            <a href="#">
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" data-title="Headphone" data-category="Headphone" data-text="Beat Phone VIP" data-price="$450.00" data-img="img/time3.png" data-scroll="#sale" class="open__pop">
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sale__content__item">
+                        <a href="#">Headphone</a>
+                        <h1>Beat Studio Wireless </h1>
+                        <p>price: <span>$250.00</span></p>
+                        <img src="img/time4.png">
+                        <div class="sale__fonts">
+                            <a href="#">
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" data-title="Headphone" data-category="Headphone" data-text="Beat Studio Wireless" data-price="$250.00" data-img="img/time4.png" data-scroll="#sale" class="open__pop">
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--конец-->
+            </div>
+        </div>
+    </section>
+    <!--Конец-->
+
+    <!--3 секция-->
+    <div id="scroolTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+    <section class="popular" id="popular">
+        <div class="container">
+            <div class="popular__header">
+                <h2 class="sale__title"><span>P</span>opular product</h2>
+                <div class="popular__header__btns">
+                    <ul>
+                        <li><i class="fa fa-headphones " aria-hidden="true"></i></li>
+                        <li><i class="fa fa-clock-o" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-mobile" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-gamepad" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-laptop" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-television" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <!--Столбцы-->
+            <div class="popular__products">
+                <div class="popular__product__main">
+                    <div class="popular__product__main__clock">
+                        <div class="popular__product__main__img">
+                            <img src="img/grande1.png" alt="clock">
+                            <img src="img/grande.png" alt="">
+                            <img src="img/time.png" alt="">
+                        </div>
+                        <div class="popular__product__main__switches">
+                            <img src="img/15b_grande.png" alt="">
+                            <img src="img/15a_grande.png" alt="">
+                            <img src="img/15q_grande.png" alt="">
+                        </div>
+                    </div>
+                    <div class="popular__product__main__text">
+                        <h1>Apple Watch Sport Green</h1>
+                        <p>price: <span>$400.00</span></p>
+                        <ul>
+                            <li>Windows 10</li>
+                            <li> Intel Quad Core Processors</li>
+                            <li>Nvidia GeForce GTX 950M Graphics Card </li>
+                        </ul>
+
+                        <div class="sale__fonts__left t-text">
+                            <a href="#">
+                                <i class="fa fonts fa-refresh" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" data-title="Watch" data-category="Apple Watch Sport Green" data-text="" data-price="$400.00" data-img="img/time1.png" data-scroll="#popular" class="open__pop">
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Конец 1 столбца-->
+                <div class="sale__content__item popular__item">
+                    <h1>Apple Watch Sport Green</h1>
+                    <p>price: <span>$400.00</span></p>
+                    <img src="img/mi-band.png">
+                    <!-- <p>Lorem Ipsum is simply dummy the printing and typesetting</p> -->
+                    <div class="sale__fonts">
+                        <a href="#">
+                            <i class="fa fa-refresh" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" data-title="Watch" data-category="Apple Watch Sport Green" data-text='' data-price="$400.00" data-img="img/mi-band.png" data-scroll="#popular" class="open__pop">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!---->
+                <div class="sale__content__item popular__item">
+                    <h1>Beat Beautiful</h1>
+                    <p>price: <span>$400.00</span></p>
+                    <img src="img/grande2.png">
+                    <div class="sale__fonts">
+                        <a href="#">
+                            <i class="fa fa-refresh" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" data-title="Watch" data-category="Beat Beautiful" data-text='' data-price="$400.00" data-img="img/grande2.png" data-scroll="#popular" class="open__pop">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <!---->
+                <div class="sale__content__item popular__item">
+                    <h1>BOSS HUGO BOSS Quartz</h1>
+                    <p>price: <span>$450.00</span></p>
+                    <img src="img/grande4.png">
+                    <div class="sale__fonts">
+                        <a href="#">
+                            <i class="fa fa-refresh" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" data-title="Watch" data-category="BOSS HUGO BOSS Quartz" data-text='' data-price="$450.00" data-img="img/grande4.png" data-scroll="#popular" class="open__pop">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <!---->
+                <div class="sale__content__item popular__item">
+                    <h1>Canon EOS 1200D</h1>
+                    <p>price: <span>$250.00</span></p>
+                    <img src="img/grande5.png">
+                    <div class="sale__fonts">
+                        <a href="#">
+                            <i class="fa fa-refresh" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" data-title="camera" data-category="Canon EOS 1200D" data-text='' data-price="$250.00" data-img="img/grande5.png" data-scroll="#popular" class="open__pop">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <!---->
+                <div class="sale__content__item popular__item">
+                    <h1>Beat Phone VIP</h1>
+                    <p>price: <span>$450.00</span></p>
+                    <img src="img/grande6.png">
+                    <div class="sale__fonts">
+                        <a href="#">
+                            <i class="fa fa-refresh" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" data-title="headphone" data-category="Beat Phone VIP" data-text='' data-price="$450.00" data-img="img/grande6.png" data-scroll="#popular" class="open__pop">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <!---->
+                <div class="sale__content__item popular__item">
+                    <h1>Beat Phone VIP</h1>
+                    <p>price: <span>$450.00</span></p>
+                    <img src="img/grande7.png">
+                    <div class="sale__fonts">
+                        <a href="#">
+                            <i class="fa fa-refresh" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" data-title="headphone" data-category="Beat Phone VIP" data-text='' data-price="$450.00" data-img="img/grande7.png" data-scroll="#popular" class="open__pop">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--Конец-->
+
+
+    <!--4 секция-->
+    <section class="deal" id="deal">
+        <div class="container">
+            <div class="deal__blocks">
+                <div class="deal__slider">
+                    <div class="deal__slider__img">
+                        <img src="img/hot-deal2_grande.png" alt="">
+                        <img src="img/time5.png " class="active" alt="">
+                        <img src="img/hot-deal3_grande.png" alt="">
+
+                    </div>
+                    <div class="deal__slider__switch">
+                        <img src="img/hot-deal2_grande.png" alt="">
+                        <img src="img/time5.png " class="active" alt="">
+                        <img src="img/hot-deal3_grande.png" alt="">
+                    </div>
+                    <div class="deal__slider__btns">
+                        <button class="deal__slider__prev active"></button>
+                        <button class="deal__slider__next"></button>
+                    </div>
+                </div>
+                <div class="deal__inf">
+                    <div class="deal__text">
+                        <h2 class="sale__title deal__title"><span>T</span>HIS WEEK'S HOT DEALS</h2>
+                        <p>Video game & consoles</p>
+                        <p>Beats Studio Wireless Over-Ear Black Headphones</p>
+                        <ul>
+                            <li>Enjoy the largest library of games, with blockbuster titles</li>
+                            <li>Flat Folding Headphone Adjustable Headband</li>
+                            <li>32mm Speakers 1.2m Cable</li>
+                        </ul>
+                        <p>price: <span>$400.00</span>-$380.00</p>
+                    </div>
+                    <div class="sale__fonts__left t-text">
+                        <a href="#">
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fonts fa-refresh" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </a>
+                        <a data-title="Headphone" data-category="Video game & consoles" data-text="Beats Studio Wireless Over-Ear Black Headphones" data-price="$400.00" data-img="img/hot-deal2_grande.png" data-scroll="#deal" class="open__pop" href="#">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!--Конец-->
+
+    <!--5 секция-->
+    <section class="other" id="other">
+        <div class="container">
+            <div class="other__products ">
+                <div class="other__product">
+                    <h2 class="sale__title other__title"><span>F</span>eature product</h2>
+                    <div class="other__block ">
+                        <img src="img/time6.png">
+                        <div class="other__product__text">
+                            <a href="#">Headphone</a>
+                            <p>Beat Phone VIP</p>
+                            <p>Chronograph Watch</p>
+                            <p>price: <span>$450.00</span></p>
+                            <div class="sale__fonts other__fonts">
+                                <a href="#">
+                                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </a>
+                                <a data-title="Headphone" data-category="Headphone" data-text="Beat Phone VIP Chronograph Watch" data-price="$450.00" data-img="img/time6.png" data-scroll="#other" class="open__pop" href="#">
+                                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---->
+                    <div class="other__block">
+                        <img src="img/time8.png">
+                        <div class="other__product__text">
+                            <a href="#">Headphone</a>
+                            <p>Beat Phone VIP</p>
+                            <p>Chronograph Watch</p>
+                            <p>price: <span>$450.00</span></p>
+                            <div class="sale__fonts other__fonts">
+                                <a href="#">
+                                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </a>
+                                <a data-title="Headphone" data-category="Headphone" data-text="Beat Phone VIP Chronograph Watch" data-price="$450.00" data-img="img/time8.png" data-scroll="#other" class="open__pop" href="#">
+                                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="other__block">
+                        <img src="img/time7.png">
+                        <div class="other__product__text">
+                            <a href="#">Headphone</a>
+                            <p>Beat Phone VIP</p>
+                            <p>Chronograph Watch</p>
+                            <p>price: <span>$450.00</span></p>
+                            <div class="sale__fonts other__fonts">
+                                <a href="#">
+                                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </a>
+                                <a data-title="Headphone" data-category="Headphone" data-text="Beat Phone VIP Chronograph Watch" data-price="$450.00" data-img="img/time7.png" data-scroll="#other" class="open__pop" href="#">
+                                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Конец 1 столбца-->
+                <div class="other__product">
+                    <h2 class="sale__title other__title"><span>T</span>op review</h2>
+                    <div class="other__block">
+                        <img src="img/time9.png">
+                        <div class="other__product__text">
+                            <a href="#">Headphone</a>
+                            <p>Beat Phone VIP</p>
+                            <p>Chronograph Watch</p>
+                            <p>price: <span>$450.00</span></p>
+                            <div class="sale__fonts other__fonts">
+                                <a href="#">
+                                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </a>
+                                <a data-title="Headphone" data-category="Headphone" data-text="Beat Phone VIP Chronograph Watch" data-price="$450.00" data-img="img/time9.png" data-scroll="#other" class="open__pop" href="#">
+                                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---->
+                    <div class="other__block">
+                        <img src="img/time10.png">
+                        <div class="other__product__text">
+                            <a href="#">Headphone</a>
+                            <p>Beat Phone VIP</p>
+                            <p>Chronograph Watch</p>
+                            <p>price: <span>$450.00</span></p>
+                            <div class="sale__fonts other__fonts">
+                                <a href="#">
+                                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </a>
+                                <a data-title="Headphone" data-category="Headphone" data-text="Beat Phone VIP Chronograph Watch" data-price="$450.00" data-img="img/time10.png" data-scroll="#other" class="open__pop" href="#">
+                                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="other__block">
+                        <img src="img/time11.png">
+                        <div class="other__product__text">
+                            <a href="#">Headphone</a>
+                            <p>Beat Phone VIP</p>
+                            <p>Chronograph Watch</p>
+                            <p>price: <span>$450.00</span></p>
+                            <div class="sale__fonts other__fonts">
+                                <a href="#">
+                                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </a>
+                                <a data-title="Headphone" data-category="Headphone" data-text="Beat Phone VIP Chronograph Watch" data-price="$450.00" data-img="img/time11.png" data-scroll="#other" class="open__pop" href="#">
+                                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Конец 2 столбца-->
+                <div class="other__product">
+                    <h2 class="sale__title other__title"><span>P</span>opular</h2>
+                    <div class="other__block">
+                        <img src="img/time12.png">
+                        <div class="other__product__text">
+                            <a href="#">Headphone</a>
+                            <p>Beat Phone VIP</p>
+                            <p>Chronograph Watch</p>
+                            <p>price: <span>$450.00</span></p>
+                            <div class="sale__fonts other__fonts">
+                                <a href="#">
+                                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </a>
+                                <a data-title="Headphone" data-category="Headphone" data-text="Beat Phone VIP Chronograph Watch" data-price="$450.00" data-img="img/time12.png" data-scroll="#other" class="open__pop" href="#">
+                                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---->
+                    <div class="other__block">
+                        <img src="img/time13.png">
+                        <div class="other__product__text">
+                            <a href="#">Headphone</a>
+                            <p>Beat Phone VIP</p>
+                            <p>Chronograph Watch</p>
+                            <p>price: <span>$450.00</span></p>
+                            <div class="sale__fonts other__fonts">
+                                <a href="#">
+                                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </a>
+                                <a data-title="Headphone" data-category="Headphone" data-text="Beat Phone VIP Chronograph Watch" data-price="$450.00" data-img="img/time13.png" data-scroll="#other" class="open__pop" href="#">
+                                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="other__block">
+                        <img src="img/time14.png">
+                        <div class="other__product__text">
+                            <a href="#">Headphone</a>
+                            <p>Beat Phone VIP</p>
+                            <p>Chronograph Watch</p>
+                            <p>price: <span>$450.00</span></p>
+                            <div class="sale__fonts other__fonts">
+                                <a href="#">
+                                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </a>
+                                <a data-title="Headphone" data-category="Headphone" data-text="Beat Phone VIP Chronograph Watch" data-price="$450.00" data-img="img/time14.png" data-scroll="#other" class="open__pop" href="#">
+                                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Конец 3 столбца-->
+            </div>
+        </div>
+    </section>
+    <!--Конец-->
+    <hr>
+
+    <!--6 колонка-->
+    <section class="brand">
+        <div class="container">
+            <div class="brands">
+                <a href="#">
+                    <i class="fa fa-gitlab" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitch" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-apple" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--Конец-->
+
+    <!--Подвал-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="social">
+                    <p>© COPYRIGHT 2016. POWERED BY SHOPIFY. DAMA</p>
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-google" aria-hidden="true"></i>
+                </div>
+                <div class="currency">
+                    <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                    <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                    <i class="fa fa-cc-paypal" aria-hidden="true"></i>
+                    <i class="fa fa-cc-amex" aria-hidden="true"></i>
+                </div>
+            </div>
+    </footer>
+    <!--Конец-->
+
+
+    <div class="popup">
+        <div class="popup__title">headphone Baet VIP</div>
+        <div class="close"><img src="img/close.png"></div>
+        <div class="popup__block">
+            <div class="popup__img"><img src="img/time15.png"></div>
+            <div class="popup__content">
+                <div class="popup__text">
+                    <a href="#">Headphone</a>
+                    <p>Beat Phone VIP Chronograph Watch</p>
+                    <div class="price">price: <span>$450.00</span></div>
+                </div>
+                <form action="mail.php" method="POST" class="popup__btns">
+                    <input type="text" name="number" class="popup__inp" placeholder="+7(900)500-70-70">
+                    <button  type="submit" class="popup__btn">Buy now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg__popup"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/soon.min.js"></script>
+</body>
+
+</html>
